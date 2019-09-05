@@ -1,12 +1,14 @@
 def palindromo(palabra):
-    a=list(palabra.replace(" ",""))
-    b=list(palabra.replace(" ",""))
+  #  a,b=list(palabra.replace(" ","")) ,list(palabra.replace(" ",""))
+   # b.reverse()
+   # print(a)
+    #print(b)
+    #return a==b
+    b=list(palabra.replace(" " ,""))
     b.reverse()
-    print(a)
-    print(b)
-    if a==b:
-        return True
-    return False 
+    return list(palabra.replace(" ",""))==b
 
 if __name__ == "__main__":
-    print(palindromo("agita falsos usos la fatiga"))
+    print("Ingrese frase")
+    palabra=input()
+    print(palindromo(palabra))

@@ -11,7 +11,7 @@ while nadie_adivino:
     if numero < buscado :
             print("El numero es mayor")
     if numero > buscado:
-            print("El numero es mayor")
+            print("El numero es menor")
     if nadie_adivino==True:
         numero2=generador_mejor(1,100000,listanumero)
         print("El numero que penso la compu en su turno fue:" + str(numero2))

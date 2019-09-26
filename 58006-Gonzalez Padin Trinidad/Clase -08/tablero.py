@@ -26,3 +26,5 @@ def win(tablero):
     if tablero[6]!= " " and tablero[6]==tablero[7] and tablero[7]==tablero[8]:
         return True
     return False
+def full(tablero):
+    return not " " in tablero
